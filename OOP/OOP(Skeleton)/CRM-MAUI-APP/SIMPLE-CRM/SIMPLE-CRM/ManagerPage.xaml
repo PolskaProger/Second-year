@@ -1,0 +1,70 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SIMPLE_CRM.ManagerPage"
+             Shell.FlyoutBehavior="Flyout"
+             Title="Менеджер">
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="150">
+
+            <Label Text="Ваша роль - Менеджер" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Label Text="Работа с категориями"/>
+            <Grid RowDefinitions="Auto, Auto,Auto"
+                  ColumnDefinitions="Auto, Auto, Auto"
+                  HorizontalOptions="Center">
+                <!-- Кнопки для действий -->
+                <Button Grid.Column="0" Grid.Row="0" Text="Добавить новую категорию" Clicked="OnAddCategoryClicked" />
+                <Entry Grid.Column="1" Grid.Row="0" Placeholder="Введите имя новой категории" x:Name="NewCatName"/>
+                <Button Grid.Column="0" Grid.Row="1" Text="Изменить категорию" Clicked="OnUpdateCategoryClicked" />
+                <Picker Grid.Column="1" Grid.Row="1" ItemDisplayBinding="{Binding Name}" x:Name="OldCatPicker" SelectedIndexChanged="OnCategoryUpdateSelected"/>
+                <Entry Grid.Column="2" Grid.Row="1" Placeholder="Введите новое имя категории" x:Name="NewNameOfCat"/>
+                <Button Grid.Column="0" Grid.Row="2" Text="Удалить категорию" Clicked="OnDeleteCategoryClicked" />
+                <Picker Grid.Column="1" Grid.Row="2" ItemDisplayBinding="{Binding Name}" x:Name="DelCatPicker" SelectedIndexChanged="OnCategoryDeleteSelected"/>
+                <!--
+                <Button Grid.Column="0" Grid.Row="1" Text="Добавить новую позицию" Clicked="OnAddPositionClicked" />
+                <Button Grid.Column="1" Grid.Row="1" Text="Изменить позицию" Clicked="OnChangePositionClicked" />
+                <Button Grid.Column="2" Grid.Row="1" Text="Удалить позицию" Clicked="OnDeletePositionClicked" />-->
+            </Grid>
+            <Label Text="Работа с позициями (Категорию выбрать через Picker!)"/>
+            <!--Пикер категории для позиций-->
+            <Picker ItemDisplayBinding="{Binding Name}" x:Name="CatPickerForPos" SelectedIndexChanged="OnCatForPosSelected"/>
+            <Grid RowDefinitions="Auto, Auto,Auto"
+                  ColumnDefinitions="Auto, Auto, Auto, Auto"
+                  HorizontalOptions="Center">
+                <!-- Кнопки для действий -->
+                <Button Grid.Column="0" Grid.Row="0" Text="Добавить новую позицию" Clicked="OnAddPositionClicked" />
+                <Entry Grid.Column="1" Grid.Row="0" Placeholder="Введите имя новой позиции" x:Name="NewPosName"/>
+                <Entry Grid.Column="2" Grid.Row="0" Placeholder="Введите стоимость в долларах" Keyboard="Numeric" x:Name="NewPosCost"/>
+                <Button Grid.Column="0" Grid.Row="1" Text="Изменить позицию" Clicked="OnUpdatePositionClicked" />
+                <Picker Grid.Column="1" Grid.Row="1" ItemDisplayBinding="{Binding Name}" x:Name="UpdatePosPicker" SelectedIndexChanged="OnUpdatePosPickerSelected"/>
+                <Entry Grid.Column="2" Grid.Row="1" Placeholder="Введите новое имя позиции" x:Name="NewNameOfPos"/>
+                <Entry Grid.Column="3" Grid.Row="1" Placeholder="Введите новую стоимость позиции" x:Name="NewCostOfPos"/>
+                <Button Grid.Column="0" Grid.Row="2" Text="Удалить позицию" Clicked="OnDeletePositionClicked" />
+                <Picker Grid.Column="1" Grid.Row="2" ItemDisplayBinding="{Binding Name}" x:Name="DeletePosPicker" SelectedIndexChanged="OnDeletePosPickerSelected" />
+            </Grid>
+            <!-- Здесь будет реализована таблица ассортимента -->
+            <!-- Picker для выбора категории -->
+            <Picker x:Name="categoryPicker"
+                Title="Выберите категорию"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedIndexChanged="OnCategorySelected" />
+
+            <Grid BackgroundColor="#D3D3D3" Padding="10" ColumnDefinitions="Auto, *">
+                <Label Grid.Column="0" Text="Название" FontAttributes="Bold" />
+                <Label Grid.Column="1" Text="Стоимость" HorizontalTextAlignment="End" FontAttributes="Bold" />
+            </Grid>
+            <!-- CollectionView для отображения позиций -->
+            <CollectionView x:Name="positionsCollectionView"
+                        ItemsSource="{Binding Positions}"
+                        SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10" ColumnDefinitions="*, Auto">
+                            <Label Grid.Column="0" Text="{Binding Name}" />
+                            <Label Grid.Column="1" Text="{Binding Cost, StringFormat='{0}$'}" HorizontalTextAlignment="End" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

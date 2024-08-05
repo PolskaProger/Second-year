@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SIMPLE_CRM.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SIMPLE_CRM"
+    Shell.FlyoutBehavior="Flyout"
+    Title="SIMPLE_CRM">
+
+    <FlyoutItem Title="Auth">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Reg">
+        <ShellContent
+         ContentTemplate="{DataTemplate local:RegPage}"
+        Route="RegPage"/>
+    </FlyoutItem>
+    <FlyoutItem Title="List of Users">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:ListOfUsersPage}"
+        Route="ListOfUsersPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="HistoryOfOrders">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:HistoryOfOrders}"
+        Route="HistoryOfOrders" />
+    </FlyoutItem>
+    <TabBar>
+        <ShellContent Route="ManagerPage" ContentTemplate="{DataTemplate local:ManagerPage}" />
+        <ShellContent Route="CashierPage" ContentTemplate="{DataTemplate local:CashierPage}" />
+        <ShellContent Route="AccountantPage" ContentTemplate="{DataTemplate local:AccountantPage}" />
+    </TabBar>
+</Shell>

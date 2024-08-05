@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SIMPLE_CRM.MainPage"
+             Title="Авторизация">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="300,0"
+            Spacing="25">
+
+            <Label
+                Text="Добро пожаловать в SIMPLE-CRM!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Введите имя пользователя и пароль, чтобы начать работать в SIMPLE-CRM:"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+            />
+            <Entry Placeholder="Логин" x:Name="LoginEntry" />
+            <Entry Placeholder="Пароль" IsPassword="True" x:Name="PasswordEntry" />
+            <Button Text="Авторизоваться" Clicked="OnLoginButtonClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

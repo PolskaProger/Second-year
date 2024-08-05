@@ -1,0 +1,1 @@
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\SIMPLE-CRM\SIMPLE-CRM\SIMPLE-CRM.csproj;x64

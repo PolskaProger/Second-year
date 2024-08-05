@@ -1,0 +1,8 @@
+﻿  Lab3.cpp
+  Создание кода
+  1 of 10 functions (10.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+D:\253505\2 SEM\АВС\lab3\Lab3\Lab3.cpp(130): warning C4799: функция "main" не имеет инструкции EMMS
+  Создание кода завершено
+  Lab3.vcxproj -> D:\253505\2 SEM\АВС\lab3\Lab3\Release\Lab3.exe

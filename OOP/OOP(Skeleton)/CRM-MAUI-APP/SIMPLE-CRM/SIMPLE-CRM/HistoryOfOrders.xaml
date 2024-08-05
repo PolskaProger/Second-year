@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SIMPLE_CRM.HistoryOfOrders"
+             Title="История заказов">
+    <VerticalStackLayout 
+    Padding="150,0"
+    Spacing="25">
+
+        <!-- Заголовки столбцов -->
+        <Grid BackgroundColor="#D3D3D3" Padding="10" ColumnDefinitions="*, *,*,*">
+            <Label Grid.Column="0" Text="Имя заказчика" FontAttributes="Bold" />
+            <Label Grid.Column="1" Text="Контактные данные" HorizontalTextAlignment="End" FontAttributes="Bold" />
+            <Label Grid.Column="2" Text="Стоимость" HorizontalTextAlignment="End" FontAttributes="Bold" />
+            <Label Grid.Column="3" Text="Дата заказа" HorizontalTextAlignment="End" FontAttributes="Bold" />
+        </Grid>
+
+        <!-- Список пользователей -->
+        <CollectionView ItemsSource="{Binding Orders}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="Black" Padding="0">
+                        <Grid Padding="10" ColumnDefinitions="*, *, *, *">
+                            <BoxView Color="Transparent" Grid.ColumnSpan="2"/>
+                            <Label Grid.Column="0" Text="{Binding CustomerName}" HorizontalTextAlignment="End" />
+                            <Label Grid.Column="1" Text="{Binding Contact}" HorizontalTextAlignment="End"  />
+                            <Label Grid.Column="2" Text="{Binding TotalCost, StringFormat='{0}$'}" HorizontalTextAlignment="End" />
+                            <Label Grid.Column="3" Text="{Binding Date}" HorizontalTextAlignment="End" />
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Label Text="Выберите контактные данные для просмотра списка позиций"/>
+        <Picker x:Name="OrderPicker"
+                Title="Выберите контакнтые данные"
+                ItemDisplayBinding="{Binding Contact}"
+                SelectedIndexChanged="OnContactSelected" />
+        <Grid BackgroundColor="#D3D3D3" Padding="10" ColumnDefinitions="Auto, *,*">
+            <Label Grid.Column="0" Text="Название" FontAttributes="Bold" />
+            <Label Grid.Column="1" Text="Стоимость" HorizontalTextAlignment="End" FontAttributes="Bold" />
+            <Label Grid.Column="2" Text="Колличество" HorizontalTextAlignment="End" FontAttributes="Bold" />
+        </Grid>
+        <!-- CollectionView для отображения позиций -->
+        <CollectionView x:Name="positionsCollectionView"
+                        ItemsSource="{Binding Positions}"
+                        SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10" ColumnDefinitions="*, *, *">
+                        <Label Grid.Column="0" Text="{Binding Name}" />
+                        <Label Grid.Column="1" Text="{Binding Cost, StringFormat='{0}$'}" HorizontalTextAlignment="End" />
+                        <Label Grid.Column="2" Text="{Binding Quantity, StringFormat='{0}'}" HorizontalTextAlignment="End" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

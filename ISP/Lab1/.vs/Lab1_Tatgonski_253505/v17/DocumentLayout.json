@@ -1,0 +1,493 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\253505\\ISP\\Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\lab4page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:lab4page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\lab4page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:lab4page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\lab1_targonski_253505.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:lab1_targonski_253505.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\services\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:services\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\services\\rates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:services\\rates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab4page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\RateServiec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IRateService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\lab3page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:lab3page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\lab3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:lab3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\lab2page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:lab2page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\lab2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:lab2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\entities\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:entities\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\entities\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:entities\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\calculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:calculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|d:\\university\\253505\\isp\\lab1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7DF94C27-FC1B-409C-9B0E-C21929E67C7A}|Lab1_Targonski_253505.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab3page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IDbService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lab4Page.xaml.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Lab4Page.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4Page.xaml.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Lab4Page.xaml.cs",
+              "RelativeToolTip": "Lab4Page.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RateService.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Services\\RateService.cs",
+              "RelativeDocumentMoniker": "Services\\RateService.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Services\\RateService.cs",
+              "RelativeToolTip": "Services\\RateService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBEAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lab4Page.xaml",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Lab4Page.xaml",
+              "RelativeDocumentMoniker": "Lab4Page.xaml",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Lab4Page.xaml",
+              "RelativeToolTip": "Lab4Page.xaml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAC0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T05:21:56.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T05:21:56.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lab1_Targonski_253505.csproj",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Lab1_Targonski_253505.csproj",
+              "RelativeDocumentMoniker": "Lab1_Targonski_253505.csproj",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Lab1_Targonski_253505.csproj",
+              "RelativeToolTip": "Lab1_Targonski_253505.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-25T05:21:56.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Services\\IRateService.cs",
+              "RelativeDocumentMoniker": "Services\\IRateService.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Services\\IRateService.cs",
+              "RelativeToolTip": "Services\\IRateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Services\\Currency.cs",
+              "RelativeDocumentMoniker": "Services\\Currency.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Services\\Currency.cs",
+              "RelativeToolTip": "Services\\Currency.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rates.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Services\\Rates.cs",
+              "RelativeDocumentMoniker": "Services\\Rates.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Services\\Rates.cs",
+              "RelativeToolTip": "Services\\Rates.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:10:58.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SQLiteService.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Services\\SQLiteService.cs",
+              "RelativeDocumentMoniker": "Services\\SQLiteService.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Services\\SQLiteService.cs",
+              "RelativeToolTip": "Services\\SQLiteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:10:47.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDbService.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Services\\IDbService.cs",
+              "RelativeDocumentMoniker": "Services\\IDbService.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Services\\IDbService.cs",
+              "RelativeToolTip": "Services\\IDbService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "lab4page.xaml.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab4page.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab4page.xaml.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab4page.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab4page.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:41:26.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T05:21:56.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\MauiProgram.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\MauiProgram.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\MauiProgram.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:01:22.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RateServiec.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\RateServiec.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\RateServiec.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\RateServiec.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\RateServiec.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:35:09.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IRateService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IRateService.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IRateService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IRateService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:34:30.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Lab3Page.xaml.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Lab3Page.xaml.cs",
+              "RelativeDocumentMoniker": "Lab3Page.xaml.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Lab3Page.xaml.cs",
+              "RelativeToolTip": "Lab3Page.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:56.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Lab3Page.xaml",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Lab3Page.xaml",
+              "RelativeDocumentMoniker": "Lab3Page.xaml",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Lab3Page.xaml",
+              "RelativeToolTip": "Lab3Page.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T05:21:56.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Lab2Page.xaml",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Lab2Page.xaml",
+              "RelativeDocumentMoniker": "Lab2Page.xaml",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Lab2Page.xaml",
+              "RelativeToolTip": "Lab2Page.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T05:21:56.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Lab2Page.xaml.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Lab2Page.xaml.cs",
+              "RelativeDocumentMoniker": "Lab2Page.xaml.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Lab2Page.xaml.cs",
+              "RelativeToolTip": "Lab2Page.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:57.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Entities\\Artist.cs",
+              "RelativeDocumentMoniker": "Entities\\Artist.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Entities\\Artist.cs",
+              "RelativeToolTip": "Entities\\Artist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:57.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Music.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Entities\\Music.cs",
+              "RelativeDocumentMoniker": "Entities\\Music.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Entities\\Music.cs",
+              "RelativeToolTip": "Entities\\Music.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:57.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Calculate.cs",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\Calculate.cs",
+              "RelativeDocumentMoniker": "Calculate.cs",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\Calculate.cs",
+              "RelativeToolTip": "Calculate.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T05:21:57.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\University\\253505\\ISP\\Lab1\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\University\\253505\\ISP\\Lab1\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T05:21:57.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Book.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Book.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Book.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:27:54.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Author.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Author.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Entities\\Author.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:27:38.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "lab3page.xaml.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab3page.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab3page.xaml.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab3page.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\lab3page.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:17:30.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IDbService.cs",
+              "DocumentMoniker": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IDbService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IDbService.cs",
+              "ToolTip": "D:\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IDbService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0418\u0441\u043F\\iisp2_Lab1_2_3_4-master\\Lab1\\Services\\IDbService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:26:55.52Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SIMPLE_CRM.CashierPage"
+             Title="Кассир">
+    <ScrollView>
+        <VerticalStackLayout>
+        <StackLayout Padding="20">
+                <Label Text="Ваша роль - Кассир" FontAttributes="Bold" HorizontalOptions="Center" />
+                <Label Text="Пункт добавления заказа" FontSize="Large" HorizontalOptions="Center" />
+
+                <Label Text="Имя заказчика:" />
+                <Entry x:Name="CustomerNameEntry" Placeholder="Введите имя заказчика" />
+
+                <Label Text="Контактная информация (email):" />
+                <Entry x:Name="ContactInfoEntry" Placeholder="Введите контактную информацию" />
+
+                <Label Text="Дата заказа (dd.MM.yyyy):" />
+                <Entry x:Name="OrderDateEntry" Placeholder="Введите дату заказа" />
+
+                <Label Text="Категория:" />
+                <Picker x:Name="CategoryPicker" Title="Выберите категорию" SelectedIndexChanged="OnCategorySelected">
+                    <Picker.ItemDisplayBinding>
+                        <Binding Path="Name" />
+                    </Picker.ItemDisplayBinding>
+                </Picker>
+
+                <Label Text="Позиция:" />
+                <Picker x:Name="PositionPicker" Title="Выберите позицию">
+                    <Picker.ItemDisplayBinding>
+                        <Binding Path="Name" />
+                    </Picker.ItemDisplayBinding>
+                </Picker>
+
+                <Label Text="Количество:" />
+                <Entry x:Name="PositionQuantityEntry" Placeholder="Введите количество" Keyboard="Numeric" />
+
+                <Button Text="Добавить позицию в заказ" Clicked="OnAddPositionClicked" />
+
+                <CollectionView x:Name="PositionsCollectionView">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal" Padding="5">
+                                <Label Text="{Binding Name}" VerticalOptions="Center" />
+                                <Label Text="{Binding Quantity}" VerticalOptions="Center" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Button Text="Создать заказ" Clicked="OnCreateOrderClicked" />
+            </StackLayout>
+        <StackLayout Padding="10">
+                <Label Text="Пункт Обновления заказа" FontSize="Large" HorizontalOptions="Center" />
+                <Picker x:Name="OrderPicker" Title="Выберите заказ" SelectedIndexChanged="OnOrderSelected">
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="Contact" />
+                </Picker.ItemDisplayBinding>
+            </Picker>
+
+            <Label Text="Новое имя заказчика" />
+            <Entry x:Name="NewCustomerNameEntry" Placeholder="Имя заказчика" />
+
+            <Label Text="Новые контактные данные" />
+            <Entry x:Name="NewContactInfoEntry" Placeholder="Контактные данные" />
+
+            <Label Text="Дата заказа (dd.MM.yyyy)" />
+            <Entry x:Name="NewOrderDateEntry" Placeholder="Дата заказа (dd.MM.yyyy)" />
+
+            <Label Text="Выберите категорию для добавления позиции" />
+            <Picker x:Name="NewCategoryPicker" Title="Выберите категорию" SelectedIndexChanged="OnCategorySelectedUpdate">
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="Name" />
+                </Picker.ItemDisplayBinding>
+            </Picker>
+
+            <Label Text="Выберите позицию" />
+            <Picker x:Name="NewPositionPicker" Title="Выберите позицию">
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="Name" />
+                </Picker.ItemDisplayBinding>
+            </Picker>
+
+            <Label Text="Количество" />
+            <Entry x:Name="NewPositionQuantityEntry" Placeholder="Количество" Keyboard="Numeric" />
+
+            <Button Text="Добавить позицию" Clicked="OnAddPositionClickedUpdate" />
+
+            <CollectionView x:Name="NewPositionsCollectionView" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Quantity}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Удалить выбранную позицию" Clicked="OnDeletePositionClickedUpdate" />
+
+            <Button Text="Обновить заказ" Clicked="OnUpdateOrderClicked" />
+        </StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Пункт Удаления заказа" FontSize="Large" HorizontalOptions="Center" />
+                <Picker x:Name="DelOrderPicker" Title="Выберите заказ">
+                    <Picker.ItemDisplayBinding>
+                        <Binding Path="Contact" />
+                    </Picker.ItemDisplayBinding>
+                </Picker>
+
+                <Button Text="Удалить заказ" Clicked="OnDeleteOrderClicked" />
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

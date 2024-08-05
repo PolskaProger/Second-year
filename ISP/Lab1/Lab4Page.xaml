@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1.Lab4Page"
+             Title="Lab4Page">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+
+            <Entry  x:Name="Entry1" Grid.Row="0" Grid.Column="0" Keyboard="Numeric"  MaxLength="9">
+                <Entry.Behaviors>
+
+                </Entry.Behaviors>
+            </Entry>
+            <Entry  x:Name="Entry2" Grid.Row="1" Grid.Column="0" Keyboard="Numeric" MaxLength="9">
+                <Entry.Behaviors>
+                </Entry.Behaviors>
+            </Entry>
+
+            <Picker x:Name="Currency2" Title="Выбранная валюта"
+                    SelectedIndexChanged="Picker2SelectedIndexChanged"
+                    Grid.Column="1"
+                    Grid.Row="0">
+                <Picker.Items>
+                    <x:String>Российских рублей</x:String>
+                    <x:String>Евро</x:String>
+                    <x:String>Доллар США</x:String>
+                    <x:String>Швейцарский франк</x:String>
+                    <x:String>Китайских юаней</x:String>
+                    <x:String>Фунт стерлингов</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="Эквивалент в белорусских рублях" Grid.Row="1" Grid.Column="1"/>
+
+            <DatePicker x:Name ="DatePicker" Format="d" DateSelected="DateSelected" Grid.Column="2" Grid.RowSpan="2">
+                <DatePicker.MinimumDate>1/1/2015</DatePicker.MinimumDate>
+            </DatePicker>
+
+            <Button x:Name="ConvertButton" Text="Convert" Clicked="OnConvertClicked"
+                    Grid.Row="2" Grid.Column="0"/>
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

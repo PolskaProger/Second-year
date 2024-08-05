@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SIMPLE_CRM.RegPage"
+             Title="Регистрация">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="300,30"
+            Spacing="25">
+
+            <Label
+                Text="Регистрация в SIMPLE-CRM"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Введите имя пользователя, пароль и выберите роль:"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Entry Placeholder="Имя пользователя" x:Name="UsernameEntry" />
+            <Entry Placeholder="Пароль" IsPassword="True" x:Name="PasswordEntry" />
+            <Entry Placeholder="Подтвердите пароль" IsPassword="True" x:Name="ConfirmPasswordEntry" />
+
+            <Label Text="Выберите роль:" />
+            <RadioButton GroupName="roles" Content="Менеджер" x:Name="ManagerRadioButton" />
+            <RadioButton GroupName="roles" Content="Кассир" x:Name="CashierRadioButton" />
+            <RadioButton GroupName="roles" Content="Бухгалтер" x:Name="AccountantRadioButton" />
+
+            <Button Text="Зарегистрироваться" Clicked="OnRegisterButtonClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SIMPLE_CRM.AccountantPage"
+             Title="Бухгалтер">
+
+    <StackLayout Padding="10">
+        <Label Text="Аналитика" FontSize="Large" />
+        <Label x:Name="AverageCheckLabel" />
+        <Label x:Name="MonthlyAverageCheckLabel" />
+        <Label x:Name="MostValuableCustomerLabel" />
+        <Label x:Name="MostPopularPositionLabel" />
+
+        <Button Text="Показать аналитику" Clicked="OnShowAnalyticsClicked" />
+
+        <BoxView HeightRequest="1" BackgroundColor="Gray" Margin="10,20" />
+
+        <Label Text="Сериализация и десериализация" FontSize="Large" />
+
+        <Label Text="Выберите действие" />
+        <Picker x:Name="SerializationPicker">
+            <Picker.Items>
+                <x:String>Сериализация в CSV</x:String>
+                <x:String>Сериализация в JSON</x:String>
+                <x:String>Десериализация из CSV</x:String>
+                <x:String>Десериализация из JSON</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button Text="Выбрать файл" Clicked="OnPickFileClicked" />
+        <Button Text="Выполнить" Clicked="OnExecuteClicked" />
+        <Label x:Name="ResultLabel" />
+    </StackLayout>
+</ContentPage>

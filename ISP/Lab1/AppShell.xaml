@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Lab1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Lab1"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Lab1">
+    <FlyoutItem Title="Calculator">
+        <ShellContent
+            Title="Calculator"
+            ContentTemplate="{DataTemplate local:MainPage}"
+        />
+    </FlyoutItem>
+    <FlyoutItem Title="IntegralCalculation">
+        <ShellContent
+        Title="IntegralCalculation"
+        ContentTemplate="{DataTemplate local:Lab2page}"
+        Route="Lab2page" />
+    </FlyoutItem>
+    <FlyoutItem Title="DataBaseExample">
+        <ShellContent
+     Title="DataBaseExample"
+     ContentTemplate="{DataTemplate local:Lab3Page}"
+     Route="Lab3Page" />
+    </FlyoutItem>
+    <FlyoutItem Title="RateOfCurrency">
+        <ShellContent
+     Title="RateOfCurrency"
+     ContentTemplate="{DataTemplate local:Lab4Page}"
+     Route="Lab4Page" />
+    </FlyoutItem>
+</Shell>

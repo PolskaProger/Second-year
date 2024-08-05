@@ -1,0 +1,12 @@
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\bin\Debug\net8.0\Serialiser.deps.json
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\bin\Debug\net8.0\Serialiser.dll
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\bin\Debug\net8.0\Serialiser.pdb
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\Serialiser.csproj.AssemblyReference.cache
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\Serialiser.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\Serialiser.AssemblyInfoInputs.cache
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\Serialiser.AssemblyInfo.cs
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\Serialiser.csproj.CoreCompileInputs.cache
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\Serialiser.dll
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\refint\Serialiser.dll
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\Serialiser.pdb
+D:\University\253505\ООП\OOP(Skeleton)\Serialiser\obj\Debug\net8.0\ref\Serialiser.dll

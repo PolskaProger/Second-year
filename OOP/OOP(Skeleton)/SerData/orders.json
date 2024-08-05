@@ -1,0 +1,41 @@
+[
+  {
+    "CustomerName": "Дмитрий",
+    "Contact": "dimatarg0110@gmail.com",
+    "PositionsInOrder": [
+      {
+        "Name": "Фанта",
+        "Cost": 1.0,
+        "Quantity": 5,
+        "category": "Напитки",
+        "Id": "8066a0ab-d7ef-490f-9dc7-64efad7db5d0"
+      },
+      {
+        "Name": "Тёмное",
+        "Cost": 10.0,
+        "Quantity": 3,
+        "category": "Пиво",
+        "Id": "127fd1db-4e0d-4cd7-8b56-95cb0d870aa2"
+      }
+    ],
+    "TotalCost": 35.0,
+    "Date": "2024-04-02T21:00:00Z",
+    "Id": "dde7ed23-efac-4579-b534-000d6fe4872c"
+  },
+  {
+    "CustomerName": "Николай",
+    "Contact": "niko@yandex.by",
+    "PositionsInOrder": [
+      {
+        "Name": "Светлое",
+        "Cost": 10.0,
+        "Quantity": 10,
+        "category": "Пиво",
+        "Id": null
+      }
+    ],
+    "TotalCost": 100.0,
+    "Date": "2024-05-21T21:00:00Z",
+    "Id": "a0a7ddc6-7636-4cb3-8240-bcda01a3f692"
+  }
+]

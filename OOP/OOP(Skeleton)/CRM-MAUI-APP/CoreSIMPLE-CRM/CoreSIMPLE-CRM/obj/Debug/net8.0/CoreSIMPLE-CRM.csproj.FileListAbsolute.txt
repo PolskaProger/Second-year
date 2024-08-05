@@ -1,0 +1,12 @@
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\bin\Debug\net8.0\CoreSIMPLE-CRM.deps.json
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\bin\Debug\net8.0\CoreSIMPLE-CRM.dll
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\bin\Debug\net8.0\CoreSIMPLE-CRM.pdb
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\CoreSIMPLE-CRM.csproj.AssemblyReference.cache
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\CoreSIMPLE-CRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\CoreSIMPLE-CRM.AssemblyInfoInputs.cache
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\CoreSIMPLE-CRM.AssemblyInfo.cs
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\CoreSIMPLE-CRM.csproj.CoreCompileInputs.cache
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\CoreSIMPLE-CRM.dll
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\refint\CoreSIMPLE-CRM.dll
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\CoreSIMPLE-CRM.pdb
+D:\University\253505\ООП\OOP(Skeleton)\CRM-MAUI-APP\CoreSIMPLE-CRM\CoreSIMPLE-CRM\obj\Debug\net8.0\ref\CoreSIMPLE-CRM.dll
